@@ -1,0 +1,16 @@
+.input-wrapper {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+.inputs {
+    background-color: #f3f3f3;
+    padding: 9px;
+    border-radius: 4px;
+    margin-right: 18px;
+    color: #5f6375;
+    cursor: pointer;
+    margin-top: 15px;
+    border: none;
+}
