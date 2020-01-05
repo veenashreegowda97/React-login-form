@@ -1,0 +1,21 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_login {
+    margin-top: 15px;
+}
+.forgot-text {
+    color: #dfdfdf;
+}
+
+.forgot-wrapper {
+    margin-top: 15px;
+}
+.create-acc-wrapper {
+    margin-top: 30px;
+}
+.create-text {
+    color: #dfdfdf;
+}

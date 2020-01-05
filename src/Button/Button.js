@@ -3,9 +3,7 @@ import '../Button/Button.css'
 
 function Button() {
     return(
-        <div class="button-wrapper">
-            <div class="login_button">LOGIN</div>
-        </div>
+        <div class="login_button">LOGIN</div>
     )
 }
 
