@@ -8,8 +8,7 @@ function Form() {
         <div class="form-wrapper">
             <div class="user_login"><b>User Login</b></div>
             <div class="input-boxes">
-                <Input/>
-                <Input/>           
+                <Input/>         
             </div>
             <div class="button-wrappers">
                 <Button/>
