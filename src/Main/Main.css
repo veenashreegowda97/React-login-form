@@ -1,0 +1,16 @@
+.main-wrapper {
+    border: 1px solid #0186ff;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+    background-color: white;
+    border-radius: 10px;
+}
+.header-wrapper {
+    height: 40px;
+    background-color: #0186ff;
+    width: 100%;
+    border-radius: 5px;
+}
