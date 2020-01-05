@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Main from '../src/Main/Main'
+import Form from '../src/Form/Form'
 
 function App() {
   return (
     <div class="login-wrapper">
       <div class="align">
-        <Main/>
+        <Form/>
       </div>
     </div>
   );

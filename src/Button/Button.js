@@ -1,9 +1,9 @@
 import React from 'react'
 import '../Button/Button.css'
 
-function Button() {
+function Button(props) {
     return(
-        <div class="login_button">LOGIN</div>
+        <div class="login_button" style={{backgroundColor: props.color}}>LOGIN</div>
     )
 }
 

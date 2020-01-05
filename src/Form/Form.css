@@ -19,3 +19,21 @@
 .create-text {
     color: #dfdfdf;
 }
+.header-wrapper {
+    height: 40px;
+    background-color: #0186ff;
+    width: 100%;
+    border: 1px solid #0186ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main-wrapper {
+    border: 1px solid #0186ff;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    background-color: white;
+    border-radius: 10px;
+}

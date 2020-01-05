@@ -1,11 +1,10 @@
 import React from 'react'
 import './Input.css'
 
-function input() {
+function input(props) {
     return (
         <div className="input-wrapper">
-            <input type="text" className="inputs" placeholder="Username"/>
-            <input type="text" className="inputs" placeholder="Password"/>
+            <input type="text" className="inputs" placeholder={props.placeholder} value={props.name} onChange={props.onChange}/>
         </div> 
     )
 }
