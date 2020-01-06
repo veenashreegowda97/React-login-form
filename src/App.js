@@ -5,7 +5,7 @@ import Form from '../src/Form/Form'
 
 function App() {
   return (
-    <div class="login-wrapper">
+    <div className="login-wrapper">
         <Form/>
     </div>
   );

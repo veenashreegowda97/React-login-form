@@ -5,10 +5,15 @@ import Input from '../Input/Input'
 import 'font-awesome/css/font-awesome.min.css';
 
 class Form extends Component{
-    state={
-        name:'',
-        password:''
+    constructor(){
+        console.log('constructor');
+        super();
+        this.state={
+            name:'',
+            password:''
+        }
     }
+    
     onChange=(e)=>{
         this.setState({
             name:e.target.value,
@@ -20,10 +25,26 @@ class Form extends Component{
             password:e.target.value   
         })
     }
+    componentDidMount() {
+        console.log('componentDidMount')
+    }
+    shouldComponentUpdate() {
+        console.log('shouldComponentUpdate');
+        return true;
+    }
+    componentDidUpdate(){
+        console.log('componentDidUpdate');
+    }
+    componentWillUnmount() {
+        console.log('componentWillUnmount');
+    }
     render(){
+        const styles = {
+            backgroundColor:this.state.password
+        }
         return(
             <div className="main-wrapper">
-                <header className="header-wrapper">
+                <header className="header-wrapper" style={styles}>
                 </header>
                 <div className="form-wrapper">
                     <div className="user_login"><b>User Login</b></div>
