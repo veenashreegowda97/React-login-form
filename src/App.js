@@ -6,9 +6,7 @@ import Form from '../src/Form/Form'
 function App() {
   return (
     <div class="login-wrapper">
-      <div class="align">
         <Form/>
-      </div>
     </div>
   );
 }

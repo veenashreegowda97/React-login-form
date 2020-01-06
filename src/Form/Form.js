@@ -2,6 +2,7 @@ import React,{Component} from 'react'
 import '../Form/Form.css'
 import Button from '../Button/Button'
 import Input from '../Input/Input'
+import 'font-awesome/css/font-awesome.min.css';
 
 class Form extends Component{
     state={
@@ -26,11 +27,8 @@ class Form extends Component{
                 </header>
                 <div className="form-wrapper">
                     <div className="user_login"><b>User Login</b></div>
-                    <div className="input-boxes">
-                        <Input placeholder="Username" name={this.state.name} onChange={this.onChange}/>
-                        <Input placeholder="Password" name={this.state.password} onChange={this.onChangepassword}/>        
-                    </div>
-                    <div className="button-wrappers">
+                        <Input placeholder="Username" name={this.state.name} onChange={this.onChange} fontawesome="fa fa-user"/>
+                        <Input placeholder="Password" name={this.state.password} onChange={this.onChangepassword} fontawesome="fa fa-lock"/>        
                         <Button color={this.state.password}/>
                     </div>
                     <div className="forgot-wrapper">
@@ -43,7 +41,6 @@ class Form extends Component{
                             Create Your  Account ->
                         </div>
                     </div>
-                </div>
             </div>
         )
     }  

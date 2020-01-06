@@ -4,20 +4,23 @@
     align-items: center;
 }
 .user_login {
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 .forgot-text {
-    color: #dfdfdf;
+    color: grey;
+    font-size: 11px;
 }
 
 .forgot-wrapper {
     margin-top: 15px;
 }
 .create-acc-wrapper {
-    margin-top: 30px;
+    margin-top: 32px;
 }
 .create-text {
-    color: #dfdfdf;
+    color: grey;
+    font-size: 12px;
 }
 .header-wrapper {
     height: 40px;
@@ -33,7 +36,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 60%;
+    height: 55%;
     background-color: white;
     border-radius: 10px;
 }
+@media only screen and (max-width: 700px) {
+    .main-wrapper {
+        width: 75%;
+    }
+  }
