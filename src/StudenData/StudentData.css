@@ -1,0 +1,12 @@
+.table-wrapper {
+    margin-top: 15px;
+}
+.create-body {
+    margin: 10px;
+}
+
+.Create-main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
