@@ -1,0 +1,19 @@
+.input-alignment-wrappers{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    margin-left: 10px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.select-wrapper {
+    height: 100%;
+    border: none;
+    background-color: #f3f3f3;
+    outline: none;
+    color: #5f6375;
+}
